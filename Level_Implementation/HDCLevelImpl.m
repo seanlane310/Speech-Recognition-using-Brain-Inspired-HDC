@@ -171,7 +171,7 @@ function [level_HVs, pos_HVs] = GetBaseHVs(num_bins)
     %High accuracy, but uncorrelated levels
     %Not for VHDL implementation because uses randi
 
-    for d = 2:13%117
+    for d = 2:117
         lev_HVs(d,:) = lev_HVs(d-1,:);
         rand = randi(D,(D/M),1);
         for i = 1:length(rand)
@@ -182,10 +182,10 @@ function [level_HVs, pos_HVs] = GetBaseHVs(num_bins)
 %Correlated HVs, not as accurate and the randi level HVs but easier to
 %implement in VHDL and proven in previous HDC implementations to be
 %effective
-%     for d = 2:13%117
+%     for d = 2:117
 %         lev_HVs(d,:) = lev_HVs(d-1,:);
-%         for i = 1:216 %24
-%             lev_HVs(d,((d-2)*216)+i) = ~lev_HVs(d,((d-2)*216)+i); %24
+%         for i = 1:24
+%             lev_HVs(d,((d-2)*24)+i) = ~lev_HVs(d,((d-2)*24)+i); %24
 %         end
 %     end
        
