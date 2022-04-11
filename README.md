@@ -19,3 +19,6 @@ Level Implementation:
         
   VHDL
     Sim: audioHDC process to add variable waves to waveform
+
+
+Acknowledgement: I would like to thank Dr. Jiao for his support and advice throughout this entire process and for introducing me to the topic of Hyperdimensional Computing in ECE 8405 during the spring of 2021. I would also like to thank Dongning Ma for his technical expertise and advice surrounding the topic of Hyperdimensional Computing. I would like to thank the entire ECE department for their help during my thesis and over my entire 5 years at Villanova.
