@@ -105,7 +105,7 @@ function [bin_values] = GetFreqBins(audioData, num_bins)
         end
     end
 
- %average = average * 10;
+ average = average * 10;
 
 %     increaserate = 1.13;
 % 
