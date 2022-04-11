@@ -1,6 +1,8 @@
 # Speech-Recognition-using-Brain-Inspired-HDC
 Sean Lane's Master's Thesis Villanova University
 
+Main Dataset: https://www.kaggle.com/datasets/jbuchner/synthetic-speech-commands-dataset - subset used within repo
+
 Digit Implementation:
   MATLAB
   Run preprocessing code first 
