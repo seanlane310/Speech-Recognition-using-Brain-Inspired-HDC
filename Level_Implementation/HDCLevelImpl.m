@@ -151,13 +151,11 @@ end
 
 function [level_HVs, pos_HVs] = GetBaseHVs(num_bins)
 %% Initial Hypervector Generation
-% Gives 2 hypervector sets: the 10 digit vectors and a number of position
-%       vectors dependent on the number of audio bins.
+% Gives 2 hypervector sets: level and position
 %
 % Takes num_bins, the number of bins of the audio samples.
 %
-% Returns level_HVs, the set of 10 hypervectors corresponding to the
-%       numbers 0 through 9.
+% Returns level_HVs
 % Returns pos_HVs, the set of hypervectors corresponding to the
 %       positions of the bins of the audio sample.
 
@@ -208,8 +206,7 @@ function [audio_HV] = AudioEncoder(bin_values, level_HVs, pos_HVs)
 %256
 % Takes bin_values, the set of decimal numbers representing the average
 %       frequency values of one audio sample.
-% Takes level_HVs, the set of 10 hypervectors, each corresponding to a
-%       digit (the number 0 through 9).
+% Takes level_HVs
 % Takes pos_HVs, the set of hypervectors corresponding to the positions of
 %       the bins of the audio sample.
 %
